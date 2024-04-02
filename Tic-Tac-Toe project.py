@@ -44,6 +44,6 @@ def draw_move(board):
     counter = len(free)
     if counter > 0:
         it = randrange(counter)  
-        row, col = free[it]
-        board[row][col] = 'X'
+        row,col = free[it]
+        print(row,col)
     draw_move(board)  
